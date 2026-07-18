@@ -1,11 +1,9 @@
-function Card(){
-    const name = "Subodh Uprety";
-    const age = 22;
+function Card(props){
     return (
         <>
         <div className="card">
-            <h1>{name}</h1>
-            <p>My age is {age}</p>
+            <h1>{props.name}</h1>
+            <p>My age is {props.age}</p>
         </div>
         </>
     )
