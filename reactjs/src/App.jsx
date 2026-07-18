@@ -6,7 +6,7 @@ function App() {
     <>
       <Navbar />
       <Card name="Subodh Uprety" age={22} />
-      <Card name="John Doe" age={30} />
+      <Card name="Cristiano Ronaldo" age={41} />
     </>
   )
 }
