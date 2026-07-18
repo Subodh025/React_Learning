@@ -1,12 +1,9 @@
 import React from 'react'
-
+import Card from './components/Card.jsx'
 function App() {
   return (
     <>
-    <div className="Dad">
-      <h1>Hello World</h1>
-    </div>
-    <div className="chacha"></div>
+      <Card />
     </>
   )
 }
