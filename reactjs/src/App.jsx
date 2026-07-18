@@ -3,10 +3,10 @@ import React from 'react'
 function App() {
   return (
     <>
-    <div class="Dad">
+    <div className="Dad">
       <h1>Hello World</h1>
     </div>
-    <div class="chacha"></div>
+    <div className="chacha"></div>
     </>
   )
 }
